@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-fyvvyf-отчет-о-сервере-e",
+  "editForm": "i-i-s-fyvvyf-отчет-о-сервере-e",
+  "external": false,
+  "caption": "Отчет о сервере",
+  "name": "IISFyvvyfОтчетОСервереL",
+  "className": "ОтчетОСервереL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-fyvvyf-отчет-о-сервере",
+      "modelProjection": "ОтчетОСервереL"
+    }
+  ]
+}

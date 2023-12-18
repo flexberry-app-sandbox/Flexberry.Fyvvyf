@@ -1,0 +1,57 @@
+﻿{
+  "applicationCaption": "Fyvvyf",
+  "applicationTitle": "Fyvvyf",
+  "items": [
+    {
+      "link": null,
+      "menuName": "fyvvyf",
+      "caption": "Fyvvyf",
+      "title": "Fyvvyf",
+      "children": [
+        {
+          "link": "i-i-s-fyvvyf-сенсоры-l",
+          "menuName": null,
+          "caption": "Сенсоры",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-fyvvyf-должность-l",
+          "menuName": null,
+          "caption": "Должность",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-fyvvyf-расположение-l",
+          "menuName": null,
+          "caption": "Расположение",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-fyvvyf-отчет-о-сервере-l",
+          "menuName": null,
+          "caption": "Отчет о сервере",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-fyvvyf-сотрудник-l",
+          "menuName": null,
+          "caption": "Сотрудник",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-fyvvyf-серверная-l",
+          "menuName": null,
+          "caption": "Серверная",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

@@ -1,0 +1,1 @@
+docker-compose -p fyvvyf-java up -d

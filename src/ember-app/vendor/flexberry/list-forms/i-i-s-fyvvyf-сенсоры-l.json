@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-fyvvyf-сенсоры-e",
+  "editForm": "i-i-s-fyvvyf-сенсоры-e",
+  "external": false,
+  "caption": "Сенсоры",
+  "name": "IISFyvvyfСенсорыL",
+  "className": "СенсорыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-fyvvyf-сенсоры",
+      "modelProjection": "СенсорыL"
+    }
+  ]
+}

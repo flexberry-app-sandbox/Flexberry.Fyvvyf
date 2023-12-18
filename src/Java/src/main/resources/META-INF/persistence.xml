@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1"
+	xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistencehttp://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+    <persistence-unit name="Olingo4PG">
+        <class>Fyvvyf.model.Sensory</class>
+        <class>Fyvvyf.model.Dolzhnost</class>
+        <class>Fyvvyf.model.Raspolozhenie</class>
+        <class>Fyvvyf.model.OtchetOServere</class>
+        <class>Fyvvyf.model.Sotrudnik</class>
+        <class>Fyvvyf.model.Kontroller</class>
+        <class>Fyvvyf.model.Servernaya</class>
+        <class>Fyvvyf.model.FlexberryAdvLimit</class>
+        <class>Fyvvyf.model.NewPlatformFlexberryFlexberryUserSetting</class>
+        <class>Fyvvyf.model.NewPlatformFlexberryServicesLock</class>
+        <class>Fyvvyf.model.IISCaseberryLoggingObjectsApplicationLog</class>
+
+    </persistence-unit>
+</persistence>
