@@ -22,44 +22,59 @@ export default Controller.extend({
         }, {
           link: null,
           icon: 'list',
-          caption: i18n.t('forms.application.sitemap.fyvvyf.caption'),
-          title: i18n.t('forms.application.sitemap.fyvvyf.title'),
+          caption: i18n.t('forms.application.sitemap.курсовая.caption'),
+          title: i18n.t('forms.application.sitemap.курсовая.title'),
           children: [{
-            link: 'i-i-s-fyvvyf-сенсоры-l',
-            caption: i18n.t('forms.application.sitemap.fyvvyf.i-i-s-fyvvyf-сенсоры-l.caption'),
-            title: i18n.t('forms.application.sitemap.fyvvyf.i-i-s-fyvvyf-сенсоры-l.title'),
-            icon: 'suitcase',
-            children: null
+            link: null,
+            caption: i18n.t('forms.application.sitemap.курсовая.сотрудники.caption'),
+            title: i18n.t('forms.application.sitemap.курсовая.сотрудники.title'),
+            children: [{
+              link: 'i-i-s-fyvvyf-должность-l',
+              caption: i18n.t('forms.application.sitemap.курсовая.сотрудники.i-i-s-fyvvyf-должность-l.caption'),
+              title: i18n.t('forms.application.sitemap.курсовая.сотрудники.i-i-s-fyvvyf-должность-l.title'),
+              icon: 'tasks',
+              children: null
+            }, {
+              link: 'i-i-s-fyvvyf-сотрудник-l',
+              caption: i18n.t('forms.application.sitemap.курсовая.сотрудники.i-i-s-fyvvyf-сотрудник-l.caption'),
+              title: i18n.t('forms.application.sitemap.курсовая.сотрудники.i-i-s-fyvvyf-сотрудник-l.title'),
+              icon: 'table',
+              children: null
+            }]
           }, {
-            link: 'i-i-s-fyvvyf-должность-l',
-            caption: i18n.t('forms.application.sitemap.fyvvyf.i-i-s-fyvvyf-должность-l.caption'),
-            title: i18n.t('forms.application.sitemap.fyvvyf.i-i-s-fyvvyf-должность-l.title'),
-            icon: 'suitcase',
-            children: null
+            link: null,
+            caption: i18n.t('forms.application.sitemap.курсовая.информация-о-сервере.caption'),
+            title: i18n.t('forms.application.sitemap.курсовая.информация-о-сервере.title'),
+            children: [{
+              link: 'i-i-s-fyvvyf-расположение-l',
+              caption: i18n.t('forms.application.sitemap.курсовая.информация-о-сервере.i-i-s-fyvvyf-расположение-l.caption'),
+              title: i18n.t('forms.application.sitemap.курсовая.информация-о-сервере.i-i-s-fyvvyf-расположение-l.title'),
+              icon: 'building',
+              children: null
+            }, {
+              link: 'i-i-s-fyvvyf-серверная-l',
+              caption: i18n.t('forms.application.sitemap.курсовая.информация-о-сервере.i-i-s-fyvvyf-серверная-l.caption'),
+              title: i18n.t('forms.application.sitemap.курсовая.информация-о-сервере.i-i-s-fyvvyf-серверная-l.title'),
+              icon: 'tasks',
+              children: null
+            }, {
+              link: 'i-i-s-fyvvyf-отчет-о-сервере-l',
+              caption: i18n.t('forms.application.sitemap.курсовая.информация-о-сервере.i-i-s-fyvvyf-отчет-о-сервере-l.caption'),
+              title: i18n.t('forms.application.sitemap.курсовая.информация-о-сервере.i-i-s-fyvvyf-отчет-о-сервере-l.title'),
+              icon: 'table',
+              children: null
+            }]
           }, {
-            link: 'i-i-s-fyvvyf-расположение-l',
-            caption: i18n.t('forms.application.sitemap.fyvvyf.i-i-s-fyvvyf-расположение-l.caption'),
-            title: i18n.t('forms.application.sitemap.fyvvyf.i-i-s-fyvvyf-расположение-l.title'),
-            icon: 'chart line',
-            children: null
-          }, {
-            link: 'i-i-s-fyvvyf-отчет-о-сервере-l',
-            caption: i18n.t('forms.application.sitemap.fyvvyf.i-i-s-fyvvyf-отчет-о-сервере-l.caption'),
-            title: i18n.t('forms.application.sitemap.fyvvyf.i-i-s-fyvvyf-отчет-о-сервере-l.title'),
-            icon: 'paperclip',
-            children: null
-          }, {
-            link: 'i-i-s-fyvvyf-сотрудник-l',
-            caption: i18n.t('forms.application.sitemap.fyvvyf.i-i-s-fyvvyf-сотрудник-l.caption'),
-            title: i18n.t('forms.application.sitemap.fyvvyf.i-i-s-fyvvyf-сотрудник-l.title'),
-            icon: 'tags',
-            children: null
-          }, {
-            link: 'i-i-s-fyvvyf-серверная-l',
-            caption: i18n.t('forms.application.sitemap.fyvvyf.i-i-s-fyvvyf-серверная-l.caption'),
-            title: i18n.t('forms.application.sitemap.fyvvyf.i-i-s-fyvvyf-серверная-l.title'),
-            icon: 'briefcase',
-            children: null
+            link: null,
+            caption: i18n.t('forms.application.sitemap.курсовая.другое.caption'),
+            title: i18n.t('forms.application.sitemap.курсовая.другое.title'),
+            children: [{
+              link: 'i-i-s-fyvvyf-сенсоры-l',
+              caption: i18n.t('forms.application.sitemap.курсовая.другое.i-i-s-fyvvyf-сенсоры-l.caption'),
+              title: i18n.t('forms.application.sitemap.курсовая.другое.i-i-s-fyvvyf-сенсоры-l.title'),
+              icon: 'phone',
+              children: null
+            }]
           }]
         }
       ]

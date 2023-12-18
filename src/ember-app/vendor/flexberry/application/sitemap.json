@@ -4,51 +4,75 @@
   "items": [
     {
       "link": null,
-      "menuName": "fyvvyf",
-      "caption": "Fyvvyf",
-      "title": "Fyvvyf",
+      "menuName": "курсовая",
+      "caption": "Курсовая",
+      "title": "Курсовая",
       "children": [
         {
-          "link": "i-i-s-fyvvyf-сенсоры-l",
-          "menuName": null,
-          "caption": "Сенсоры",
-          "title": "",
-          "children": null
+          "link": null,
+          "menuName": "сотрудники",
+          "caption": "Сотрудники",
+          "title": "Сотрудники",
+          "children": [
+            {
+              "link": "i-i-s-fyvvyf-должность-l",
+              "menuName": null,
+              "caption": "Должность",
+              "title": "",
+              "children": null
+            },
+            {
+              "link": "i-i-s-fyvvyf-сотрудник-l",
+              "menuName": null,
+              "caption": "Сотрудник",
+              "title": "",
+              "children": null
+            }
+          ]
         },
         {
-          "link": "i-i-s-fyvvyf-должность-l",
-          "menuName": null,
-          "caption": "Должность",
-          "title": "",
-          "children": null
+          "link": null,
+          "menuName": "информация-о-сервере",
+          "caption": "ИнформацияОСервере",
+          "title": "ИнформацияОСервере",
+          "children": [
+            {
+              "link": "i-i-s-fyvvyf-расположение-l",
+              "menuName": null,
+              "caption": "Расположение",
+              "title": "",
+              "children": null
+            },
+            {
+              "link": "i-i-s-fyvvyf-серверная-l",
+              "menuName": null,
+              "caption": "Серверная",
+              "title": "",
+              "children": null
+            },
+            {
+              "link": "i-i-s-fyvvyf-отчет-о-сервере-l",
+              "menuName": null,
+              "caption": "Отчет о сервере",
+              "title": "",
+              "children": null
+            }
+          ]
         },
         {
-          "link": "i-i-s-fyvvyf-расположение-l",
-          "menuName": null,
-          "caption": "Расположение",
-          "title": "",
-          "children": null
-        },
-        {
-          "link": "i-i-s-fyvvyf-отчет-о-сервере-l",
-          "menuName": null,
-          "caption": "Отчет о сервере",
-          "title": "",
-          "children": null
-        },
-        {
-          "link": "i-i-s-fyvvyf-сотрудник-l",
-          "menuName": null,
-          "caption": "Сотрудник",
-          "title": "",
-          "children": null
-        },
-        {
-          "link": "i-i-s-fyvvyf-серверная-l",
-          "menuName": null,
-          "caption": "Серверная",
-          "title": "",
-          "children": null
+          "link": null,
+          "menuName": "другое",
+          "caption": "Другое",
+          "title": "Другое",
+          "children": [
+            {
+              "link": "i-i-s-fyvvyf-сенсоры-l",
+              "menuName": null,
+              "caption": "Сенсоры",
+              "title": "",
+              "children": null
+            }
+          ]
         }
       ]
     }

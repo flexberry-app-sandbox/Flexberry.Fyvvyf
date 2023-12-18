@@ -98,6 +98,46 @@ $.extend(true, translations, {
           caption: 'Главная',
           title: ''
         },
+        курсовая: {
+          caption: 'Курсовая',
+          title: 'Курсовая',
+          сотрудники: {
+            caption: 'Сотрудники',
+            title: 'Сотрудники',
+            'i-i-s-fyvvyf-должность-l': {
+              caption: 'Должность',
+              title: ''
+            },
+            'i-i-s-fyvvyf-сотрудник-l': {
+              caption: 'Сотрудник',
+              title: ''
+            }
+          },
+          'информация-о-сервере': {
+            caption: 'ИнформацияОСервере',
+            title: 'ИнформацияОСервере',
+            'i-i-s-fyvvyf-расположение-l': {
+              caption: 'Расположение',
+              title: ''
+            },
+            'i-i-s-fyvvyf-серверная-l': {
+              caption: 'Серверная',
+              title: ''
+            },
+            'i-i-s-fyvvyf-отчет-о-сервере-l': {
+              caption: 'Отчет о сервере',
+              title: ''
+            }
+          },
+          другое: {
+            caption: 'Другое',
+            title: 'Другое',
+            'i-i-s-fyvvyf-сенсоры-l': {
+              caption: 'Сенсоры',
+              title: ''
+            }
+          }
+        },
         fyvvyf: {
           caption: 'Fyvvyf',
           title: 'Fyvvyf',
