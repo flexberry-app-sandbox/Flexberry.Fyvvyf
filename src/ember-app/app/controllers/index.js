@@ -26,13 +26,13 @@ export default Controller.extend({
               link: 'i-i-s-fyvvyf-должность-l',
               caption: i18n.t('forms.application.sitemap.курсовая.сотрудники.i-i-s-fyvvyf-должность-l.caption'),
               title: i18n.t('forms.application.sitemap.курсовая.сотрудники.i-i-s-fyvvyf-должность-l.title'),
-              icon: 'tasks',
+              icon: 'folder',
               children: null
             }, {
               link: 'i-i-s-fyvvyf-сотрудник-l',
               caption: i18n.t('forms.application.sitemap.курсовая.сотрудники.i-i-s-fyvvyf-сотрудник-l.caption'),
               title: i18n.t('forms.application.sitemap.курсовая.сотрудники.i-i-s-fyvvyf-сотрудник-l.title'),
-              icon: 'table',
+              icon: 'list',
               children: null
             }]
           }, {
@@ -43,19 +43,19 @@ export default Controller.extend({
               link: 'i-i-s-fyvvyf-расположение-l',
               caption: i18n.t('forms.application.sitemap.курсовая.информация-о-сервере.i-i-s-fyvvyf-расположение-l.caption'),
               title: i18n.t('forms.application.sitemap.курсовая.информация-о-сервере.i-i-s-fyvvyf-расположение-l.title'),
-              icon: 'building',
+              icon: 'address card',
               children: null
             }, {
               link: 'i-i-s-fyvvyf-серверная-l',
               caption: i18n.t('forms.application.sitemap.курсовая.информация-о-сервере.i-i-s-fyvvyf-серверная-l.caption'),
               title: i18n.t('forms.application.sitemap.курсовая.информация-о-сервере.i-i-s-fyvvyf-серверная-l.title'),
-              icon: 'tasks',
+              icon: 'paperclip',
               children: null
             }, {
               link: 'i-i-s-fyvvyf-отчет-о-сервере-l',
               caption: i18n.t('forms.application.sitemap.курсовая.информация-о-сервере.i-i-s-fyvvyf-отчет-о-сервере-l.caption'),
               title: i18n.t('forms.application.sitemap.курсовая.информация-о-сервере.i-i-s-fyvvyf-отчет-о-сервере-l.title'),
-              icon: 'table',
+              icon: 'chart line',
               children: null
             }]
           }, {
@@ -66,7 +66,7 @@ export default Controller.extend({
               link: 'i-i-s-fyvvyf-сенсоры-l',
               caption: i18n.t('forms.application.sitemap.курсовая.другое.i-i-s-fyvvyf-сенсоры-l.caption'),
               title: i18n.t('forms.application.sitemap.курсовая.другое.i-i-s-fyvvyf-сенсоры-l.title'),
-              icon: 'phone',
+              icon: 'folder',
               children: null
             }]
           }]
